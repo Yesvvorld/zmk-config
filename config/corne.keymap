@@ -12,6 +12,50 @@
 &led_strip { chain-length = <27>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        test {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <5 4>;
+        };
+
+        skobki {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <6 7>;
+        };
+
+        kv_skobka_left {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <16 17>;
+        };
+
+        kv_skbk_right {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <18 19>;
+        };
+
+        fig_left {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <29 28>;
+        };
+
+        fig_rigjt {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <30 31>;
+        };
+
+        back_slash {
+            bindings = <&kp NON_US_BACKSLASH>;
+            key-positions = <28 27>;
+        };
+
+        fslash {
+            bindings = <&kp SLASH>;
+            key-positions = <30 31>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
