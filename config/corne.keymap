@@ -52,7 +52,7 @@
 
         fslash {
             bindings = <&kp SLASH>;
-            key-positions = <30 31>;
+            key-positions = <32 31>;
         };
     };
 
