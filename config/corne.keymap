@@ -70,7 +70,7 @@
 &kp TAB         &kp Q  &kp W  &kp E     &kp R  &mt GRAVE T    &kp Y    &kp U  &kp I         &kp O    &kp P     &kp BSPC
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D     &kp F  &kp G          &kp H    &kp J  &kp K         &kp L    &kp SEMI  &kp SQT
 &kp LCTRL       &kp Z  &kp X  &kp C     &kp V  &kp B          &kp N    &kp M  &kp COMMA     &kp DOT  &kp FSLH  &mt LA(LEFT_SHIFT) ESCAPE
-                              &kp LGUI  &mo 1  &kp SPACE      &kp RET  &mo 3  &kp LEFT_ALT
+                              &kp LGUI  &mo 1  &kp SPACE      &kp RET  &mo 2  &kp LEFT_ALT
             >;
         };
 
@@ -82,10 +82,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2       &kp N3     &kp N4          &kp N5              &kp N6             &kp N7           &kp N8        &kp N9                &kp N0                 &kp BSPC
+&trans  &kp N1           &kp N2       &kp N3     &kp N4          &kp N5              &kp N6             &kp N7           &kp N8        &kp N9                &kp N0                 &kp DELETE
 &trans  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR      &kp PERCENT         &kp CARET          &kp AMPS         &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &trans           &kp PLUS     &kp MINUS  &kp LEFT_BRACE  &kp LEFT_BRACKET    &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp EQUAL     &kp UNDERSCORE        &trans                 &trans
-                                      &kp LGUI   &trans          &kp SPACE           &kp RET            &to 2            &kp RALT
+                                      &kp LGUI   &trans          &kp SPACE           &kp RET            &to 2            &kp LEFT_ALT
             >;
         };
 
@@ -97,10 +97,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp G           &kp Q    &kp W         &kp E     &kp R        &kp PAGE_UP    &kp HOME           &kp UP           &kp END           &trans  &kp DEL
+&kp ESCAPE  &kp GRAVE       &kp Q    &kp W         &kp E     &kp R        &kp PAGE_UP    &kp HOME           &kp UP           &kp END           &trans  &kp DEL
 &none       &kp LEFT_SHIFT  &kp A    &kp S         &kp D     &kp F        &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp RIGHT         &trans  &trans
 &none       &kp LCTRL       &kp TAB  &kp X         &mt G M   &kp B        &kp K_MUTE     &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &trans  &trans
-                                     &kp NUMBER_3  &kp LALT  &kp SPACE    &kp RET        &to 1              &kp RALT
+                                     &kp NUMBER_3  &kp LALT  &kp SPACE    &kp RET        &to 0              &kp RALT
             >;
         };
 
