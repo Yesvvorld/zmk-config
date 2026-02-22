@@ -99,7 +99,7 @@
             bindings = <
 &kp ESCAPE  &kp GRAVE       &kp Q    &kp W         &kp E     &kp R        &kp PAGE_UP    &kp HOME           &kp UP           &kp END           &trans  &kp DEL
 &none       &kp LEFT_SHIFT  &kp A    &kp S         &kp D     &kp F        &kp PAGE_DOWN  &kp LEFT           &kp DOWN         &kp RIGHT         &trans  &trans
-&none       &kp LCTRL       &kp TAB  &kp X         &mt G M   &kp B        &kp K_MUTE     &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &trans  &trans
+&none       &kp LCTRL       &kp TAB  &kp X         &mt G M   &kp B        &kp K_MUTE     &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp K_PLAY_PAUSE  &trans  &mo 3
                                      &kp NUMBER_3  &kp LALT  &kp SPACE    &kp RET        &to 0              &kp RALT
             >;
         };
