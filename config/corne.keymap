@@ -64,7 +64,7 @@
             #binding-cells = <0>;
             bindings = <&kp LS(L) &kp J &kp LESS_THAN &kp H &kp S &kp Q &kp SPACE &kp L &kp T &kp Y &kp M &kp LS(SLASH) &kp ENTER &kp ENTER &kp LS(C) &kp R &kp D &kp F &kp SEMI &kp B &kp Y &kp F &kp SPACE &kp G &kp J &kp L &kp R &kp K &kp GREATER_THAN &kp X &kp T &kp Y &kp F &kp COMMA &kp SPACE &kp G &kp T &kp H &kp T &kp L &kp F &kp X &kp F &kp SPACE &kp Y &kp F &kp C &kp N &kp H &kp J &kp T &kp Y &kp F &kp SPACE &kp Y &kp F &kp SPACE &kp LS(G) &kp LS(R) &kp SPACE &kp LA(LEFT_SHIFT) &kp LS(M) &kp LS(W) &kp LS(D) &kp LA(LEFT_SHIFT)>;
             label = "CONNECT_WITSML";
-            wait-ms = <6000>;
+            tap-ms = <20>;
         };
     };
 
